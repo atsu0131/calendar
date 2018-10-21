@@ -33,7 +33,7 @@
 
   <% meetings.each do |meeting| %>
     <div>
-      <%= meeting.name %>
+      <%= link_to meeting.name, meeting %>
     </div>
   <% end %>
 <% end %>
